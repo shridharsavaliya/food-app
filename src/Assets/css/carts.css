@@ -1,0 +1,22 @@
+.smenu{
+    right: 0%;
+    width: 28vw;
+    height: 100vh;
+    background-color: #d1afaf;
+    position: fixed;
+    top: 0;
+    transition: 3s all ease-in-out;
+    z-index: 999;
+    cursor: pointer;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+}
+@media (max-width:768px) {
+    .smenu{
+        width: 100%;
+    }
+}
+.cart-bottom{
+    position: fixed;
+    bottom: 0;
+}

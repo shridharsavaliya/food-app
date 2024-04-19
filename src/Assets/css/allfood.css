@@ -1,0 +1,33 @@
+.paginationbttns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .paginationbttns ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .paginationbttns li {
+    margin: 0 5px;
+  }
+  
+  .paginationbttns li a {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .paginationbttns li a:hover {
+    background-color: #DE3545;
+    color: white !important;
+  }
+  .paginationbttns li a:focus {
+    background-color: #e4283b;
+    color: white !important;
+  }
+  

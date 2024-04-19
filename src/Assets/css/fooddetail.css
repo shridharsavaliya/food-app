@@ -1,0 +1,14 @@
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    font-size: 15px;
+}
+.input:focus{
+    background-color: #f4c8c8;
+    outline: none;
+
+}
+.fooddetail-bg{
+    background-color: #f4c8c8;
+}
